@@ -24,7 +24,7 @@ spec:
           persistentVolumeClaim:
             claimName: nginx-pvc
       containers:
-        - image: snimmagadda/nginx-pvc-example:latest
+        - image: docker.io/snimmagadda/nginx-pvc-example:latest
           name: nginx-pvc-example
           ports:
             - containerPort: 8081

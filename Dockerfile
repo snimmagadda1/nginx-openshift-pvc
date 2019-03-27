@@ -4,7 +4,7 @@ ADD nginx.conf /etc/nginx/
 
 ADD mime.types /etc/nginx/
 
-ADD index.html /var/www/static/
+ADD index.html /var/www/static/index.html
 
 
 WORKDIR /usr/src
